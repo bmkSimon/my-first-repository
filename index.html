@@ -8,44 +8,19 @@
         <!-- this sets up the web page to be mobile friendly (first). mobile responsive -->
         <meta name="description" content="Brian's first Bio">
         <title>Brian's Bio Page</title>
-        <style type="text/css">
-            *{
-                box-sizing: content-box;
-            }
-            .column1{
-                background-image: url('images/bluebackground.jpg'); 
-                background-repeat: no-repeat; 
-                background-attachment: fixed; 
-                background-size: cover;
-                float: left;
-                width: flex;
-                padding: 25px;
-                
-            }
-            .row:after{
-                content:"";
-                display:table;
-                clear:both;
-            }
-            body{
-                background-image: url('images/botwbackground3.jpg'); 
-                background-repeat: no-repeat; 
-                background-attachment: fixed; 
-                background-size: cover;
-                font: normal "comic sans MS", cursive, sans-serif
-            }
-        </style>
         <!-- this tag displays the title of the page in a browser tab-->
+        <link rel="stylesheet" href="style.css"> 
+        <!-- this links to the css stylesheet t-->    
     </head>
     <!-- the head tags tell the browser that the code inside it needs to be executed first -->
     <body>
         <div class ="row">
             <div class="column1"> 
                 <h1>Hi, my name is Brian Simon, <br>
-                    Web developer in training!</h1>
-                    <a href="images/BrianS.jpg" target="_blank">
-                        <img src="images/BrianS.jpg" alt="Picture of Brian Simon" width="400">
-                    </a>
+                    Web developer in training!
+                </h1>
+                    <img src="images/BrianS.jpg" alt="Picture of Brian Simon" width="400">
+                    
             </div>
             <div class="column">
                 <h2>About Me</h2>        
@@ -55,12 +30,13 @@
                 I have been living and working in Calgary ever since.        
                 </p>
                 <h3> Education and Work Experience</h3>
-                <p>I have bachelor's in Biology with a minor in Math and Chemistry from <a href="https://www.dal.ca" target="_blank">Dalhousie University</a>. I completed 2 years of Law school but opted to take some time off to gain work experience.<br>
+                <p>I have bachelor's in Biology with a minor in Math and Chemistry from <a href="https://www.dal.ca" target="_blank">Dalhousie University</a>. I completed 2 years of Law school then opted to take some time off to gain work experience.<br>
                 I have 17 years of experience working in the telecomunications industry, doing everything from front-line customer service to corporate account management to working in the dispute resolution management team handling complaints to the CRTC. <br>
                 I am currenty enrolled in the DTTP Web Development Program offered by SkillHat, learning the basics of web develpment and expanding my areas of expertise. </p>        
                 <h3>Hobbies, Interests and Fun Facts</h3>
                 <p>I'm a quiet, motivated and down to earth individual with an inquisitive mind and an appreiciation for logical thought. <br>
-                I am passionate about problem-solving and enjoy finding creative ways to accomplish goals. In my downtime, I love playing video games, watching movies and playing basketball.<br>
+                I am passionate about problem-solving and enjoy finding creative ways to accomplish goals. <br>
+                In my downtime, I love playing video games, watching movies and playing basketball.<br>
                 My favorite video game series is The Legend of Zelda (<em>Ocarina of Time on the N64 and Breath of the Wild on the Switch both re-defined gaming in my opinion!</em>).<br>
                 My favorite movie is The Matrix (<em>this movie set such a high bar with a thought-provoking plot and action sequences that still visually hold up almost a quarter-century later!</em>).<br>
                 I also enjoy travelling and hope to see the far east (Japan, Singapore, Indonesia) in the coming years.        
@@ -74,9 +50,9 @@
                 <li><a href="#"> Hobbies, Interests and Fun Facts</a></li>
             </Ul>
         </nav> -->
-        <footer id="main footer">
+       <!-- <footer id="main footer">
             <p>Copyright &copy; 2024, My first webpage</p>
-        </footer>
+        </footer> -->
     </body>
     <!-- the body tag contains the content that is physically shown in the browser-->
 </html>
