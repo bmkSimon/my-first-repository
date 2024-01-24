@@ -1,27 +1,18 @@
-            *{
-                box-sizing:content-box;
+            html{
+                box-sizing: border-box;
             }
-            .column1{
+
+            .content{
                 background-image: url('images/bluebackground.jpg'); 
                 background-repeat: no-repeat; 
                 background-attachment: fixed; 
                 background-size: cover;
-                float: left;
-                width: flex;
                 padding: 25px;                
-            } 
-            .row:after{
-                content:"";
-                display:table;
-                clear:both;
-                padding-left: 30px;
-                }
+                text-align: left;
+            }
+
             .column{
-                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                Color: black;
-                font-weight: 500;
-                line-height: 1.5;
-                align-content: right;                
+                
             }    
             body{
                 background-image: url('images/botwbackground3.jpg'); 
@@ -29,8 +20,12 @@
                 background-attachment: fixed; 
                 background-size: cover;       
                 opacity: 0.75;         
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                Color: black;
+                font-weight: 500;
+                line-height: 1.5;
             }
-            .row{
-                
 
+            .header{
+                text-align: center;
             }
