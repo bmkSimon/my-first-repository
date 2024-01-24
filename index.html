@@ -1,20 +1,82 @@
 <!DOCTYPE html>
-<!-- this doctype tag tells the browser tha this file is of the type HTML-->
+<!-- this doctype tag tells the browser that this file is of the type HTML-->
 <html lang="en">
     <!-- this html tag tells the browser that the code is of the type HTML, in English-->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- this sets up the web page to be mobile friendly (first). mobile responsive -->
-        <title>Home</title>
+        <meta name="description" content="Brian's first Bio">
+        <title>Brian's Bio Page</title>
+        <style type="text/css">
+            *{
+                box-sizing: content-box;
+            }
+            .column1{
+                background-image: url('images/bluebackground.jpg'); 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                background-size: cover;
+                float: left;
+                width: flex;
+                padding: 25px;
+                
+            }
+            .row:after{
+                content:"";
+                display:table;
+                clear:both;
+            }
+            body{
+                background-image: url('images/botwbackground3.jpg'); 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                background-size: cover;
+                font: normal "comic sans MS", cursive, sans-serif
+            }
+        </style>
         <!-- this tag displays the title of the page in a browser tab-->
     </head>
     <!-- the head tags tell the browser that the code inside it needs to be executed first -->
     <body>
-        <h1>My hello heading</h1>
-        <p>Hello World!</p>
-        <p>Take me to your leader lol</p>
-        <!-- the paragraph tag blocks a group of text together in a paragraph-->
+        <div class ="row">
+            <div class="column1"> 
+                <h1>Hi, my name is Brian Simon, <br>
+                    Web developer in training!</h1>
+                    <a href="images/BrianS.jpg" target="_blank">
+                        <img src="images/BrianS.jpg" alt="Picture of Brian Simon" width="400">
+                    </a>
+            </div>
+            <div class="column">
+                <h2>About Me</h2>        
+                <h3>Background</h3>
+                <p>I was born in Canada but grew up in the Caribbean, on the twin island state of <a href="https://www.visitantiguabarbuda.com/" target="_blank"> Antigua and Barbuda.</a> <br>
+                I returned to Canada to attend university after completing my A-Level's in 1999. I completed my undergraduate studies in Nova Scotia, then moved to Alberta in 2006.<br>
+                I have been living and working in Calgary ever since.        
+                </p>
+                <h3> Education and Work Experience</h3>
+                <p>I have bachelor's in Biology with a minor in Math and Chemistry from <a href="https://www.dal.ca" target="_blank">Dalhousie University</a>. I completed 2 years of Law school but opted to take some time off to gain work experience.<br>
+                I have 17 years of experience working in the telecomunications industry, doing everything from front-line customer service to corporate account management to working in the dispute resolution management team handling complaints to the CRTC. <br>
+                I am currenty enrolled in the DTTP Web Development Program offered by SkillHat, learning the basics of web develpment and expanding my areas of expertise. </p>        
+                <h3>Hobbies, Interests and Fun Facts</h3>
+                <p>I'm a quiet, motivated and down to earth individual with an inquisitive mind and an appreiciation for logical thought. <br>
+                I am passionate about problem-solving and enjoy finding creative ways to accomplish goals. In my downtime, I love playing video games, watching movies and playing basketball.<br>
+                My favorite video game series is The Legend of Zelda (<em>Ocarina of Time on the N64 and Breath of the Wild on the Switch both re-defined gaming in my opinion!</em>).<br>
+                My favorite movie is The Matrix (<em>this movie set such a high bar with a thought-provoking plot and action sequences that still visually hold up almost a quarter-century later!</em>).<br>
+                I also enjoy travelling and hope to see the far east (Japan, Singapore, Indonesia) in the coming years.        
+                </p>
+            </div>
+        </div>
+        <!--<nav id="main nav">
+            <Ul>
+                <li><a href="#"> Background</a></li>
+                <li><a href="#"> Education and Work Experience</a></li>
+                <li><a href="#"> Hobbies, Interests and Fun Facts</a></li>
+            </Ul>
+        </nav> -->
+        <footer id="main footer">
+            <p>Copyright &copy; 2024, My first webpage</p>
+        </footer>
     </body>
-    <!-- the body tag contaisn the content that os physically shown in the browser-->
+    <!-- the body tag contains the content that is physically shown in the browser-->
 </html>
