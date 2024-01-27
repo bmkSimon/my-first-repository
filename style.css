@@ -1,0 +1,28 @@
+            html{
+                box-sizing: border-box;
+            }
+
+            .content{
+                background-image: url('bluebackground.jpg'); 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                background-size: cover;
+                padding: 25px;                
+                text-align: left;
+            }
+            
+            body{
+                background-image: url('botwbackground3.jpg'); 
+                background-repeat: no-repeat; 
+                background-attachment: fixed; 
+                background-size: cover;       
+                opacity: 0.75;         
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                Color: black;
+                font-weight: 450;
+                line-height: 1.5;
+            }
+
+            .header{
+                text-align: center;
+            }
